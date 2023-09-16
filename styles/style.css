@@ -87,12 +87,66 @@ img{
         height: 12rem;
         border-radius: 5px;
         background-color: yellow;
-
-
-        
     }
     .icon{
         font-size: 70px;
         color:blue;
     }
+}
+
+ @media (max-width: 1366px) {
+  .box-image{
+    width: 60%;
+  }
+  img{
+    height: 30rem;
+}
+.box-text{
+    width: 40%;
+    .title{
+        margin-right: 200px;
+    }
+}
+.container-course{
+    width: 80%;
+}
+
+.localization{
+    height: 40rem;
+    background: #FEF200;
+    padding-top: 40px;
+    .title{
+        color: blue;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.box-localization{
+    width:30%;
+
+    .photo{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 100px;
+    }
+}
+.description{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+.title-desc{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sub-title{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color:blue;
+}
 }
