@@ -1,14 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/albertus-medium');
 
 body{
     background-color: #FFFFFF;
     font-family: 'Ruda', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #FFFFFF;
+}
 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
-    height: 3.5rem;
+    height: 5rem;
     top: 0;
-    border-bottom: 0.8px solid grey;
+    
+    
+    .logo-container{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-left: 15px;
+    }
+    .logo{
+        width: 6rem;
+        height: 4rem;
+        
+    }
+    .logo2{
+        width: 9rem;
+        height: 3rem;
+    }
+    .title{
+        font-family: 'Albertus Medium', sans-serif; 
+        font-size: 40px;                                       
+    }
+}
+.container-A{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    width: 60rem;
+    font-weight: 700;
+    font-size: 20px; 
+    
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 7rem;
+        height: 2rem;
+        background-color:orange;
+        border-radius: 7px;
+        font-weight: 900;
+        color: #FFFFFF;
+        font-size: 15px;
+        
+    }
 }
 .sidebar-left{
     display: flex;
@@ -93,6 +146,137 @@ img{
         color:blue;
     }
 }
+.localization{
+    height: 40rem;
+    background: #FEF200;
+    padding-top: 40px;
+    .title{
+        color: blue;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+.box-localization{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:45%;
+    height: 28rem;
+
+    .photo{
+        width: 15rem;
+        height: 10rem;
+        border-radius: 100px;
+    }
+}
+.description{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px; 
+}
+.title-desc{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.sub-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color:blue;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 9%;
+    padding-top: 5%;
+    width: 100;
+    height: 40rem;
+    background-color:#040B17;
+
+
+  
+}  .logo{
+       width: 20%;
+       height: 8rem;
+}
+
+    .sub-container{
+        height: 100%;
+        width: 12rem;
+        
+        .title{
+            font-size: 25px;
+            text-align: left;
+        }
+        .sub-title{
+            text-align: left;
+            font-size: 20px;
+            color: #FFFFFF;
+        }
+    }
+
+    .max-container{
+        height: 100%;
+        width: 16rem;
+        .title{
+            font-size: 25px;
+            text-align: left;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            height: 2.5rem;
+            border: 2px solid white;
+            border-radius: 4px;
+            
+        }
+        .icon{
+            color:#FFFFFF;
+            font-size: 30px;
+        }
+        .title-button{
+            color: #FFFFFF;
+        }
+        .topic{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #FFFFFF;
+        }
+    }
+    .app{
+        width: 150px;
+        height: 48px;
+        margin-bottom: 15px;
+    }
+    .abism{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 12rem;
+        align-items: center;
+        background-color:#FFFFFF;
+    } .logus{
+        width: 12rem;
+        height: 8rem;
+        margin-bottom: 10px;
+        }
+    .copy{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .icon-social{
+        width:3rem;
+        height:3rem;
+        color: #FFFFFF;
+    }
 
  @media (max-width: 1366px) {
   .box-image{
